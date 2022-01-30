@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.box {
+    background: crimson;
+    height: 50vh;
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: crimson;
+}
+
+.boxs {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/*Loader's styles bigin*/
+
+.loader {
+    height: 100vh;
+    width: 100%;
+    background: rgb(131, 58, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: all .5s ease;
+}
+
+.ring::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    border-top-color: transparent;
+    animation: rotate 1s linear infinite;
+}
+
+.ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    background-color: transparent;
+    height: 45px;
+    border: 5px solid blue;
+    border-radius: 50%;
+    position: relative;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*Loader's styles end*/
+
+
+/*Loader's styles bigin*/
+
+.loader1 {
+    height: 100vh;
+    width: 100%;
+    background: rgb(131, 58, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: all 1s ease;
+}
+
+.ring1::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 20px solid rgb(61, 58, 255);
+    border-top-color: rgb(131, 58, 180);
+    animation: rotatee 1s linear infinite;
+}
+
+.ring1 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131, 58, 180);
+    border: 20px solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+@keyframes rotatee {
+    1% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*Loader's styles end*/
+
+
+/*Loader's styles bigin*/
+
+.loader {
+    height: 100vh;
+    width: 100%;
+    background: rgb(131, 58, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: all .5s ease;
+}
+
+.ring::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 20px solid white;
+    border-top-color: rgb(131, 58, 180);
+    animation: rotate 1s linear infinite;
+}
+
+.ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*Loader's styles end*/
